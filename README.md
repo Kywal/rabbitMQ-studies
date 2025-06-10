@@ -1,0 +1,2 @@
+# rabbitMQ-studies
+Learning RabbitMQ
