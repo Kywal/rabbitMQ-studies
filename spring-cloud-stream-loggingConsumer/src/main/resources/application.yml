@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: loggingConsumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: myuser
+    password: secret
+
+    cloud:
+      stream:
+        bindings:
+          input:
+            destination: my-stream
+            content-type: application/json
